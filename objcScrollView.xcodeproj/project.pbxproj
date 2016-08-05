@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6403831D54587F00652BAC /* objcScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6403821D54587F00652BAC /* objcScrollView.h */; };
+		FE6403831D54587F00652BAC /* objcScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6403821D54587F00652BAC /* objcScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE64038A1D54587F00652BAC /* objcScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE64037F1D54587F00652BAC /* objcScrollView.framework */; };
 		FE64038F1D54587F00652BAC /* objcScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64038E1D54587F00652BAC /* objcScrollViewTests.m */; };
+		FE64039C1D5458B800652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6403991D5458B800652BAC /* Cartfile */; };
+		FE64039D1D5458B800652BAC /* objcScrollView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE64039A1D5458B800652BAC /* objcScrollView.podspec */; };
+		FE6403A11D5458FC00652BAC /* UIScrollView+VDPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64039F1D5458FC00652BAC /* UIScrollView+VDPosition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6403A21D5458FC00652BAC /* UIScrollView+VDPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6403A01D5458FC00652BAC /* UIScrollView+VDPosition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,11 @@
 		FE6403891D54587F00652BAC /* objcScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE64038E1D54587F00652BAC /* objcScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcScrollViewTests.m; sourceTree = "<group>"; };
 		FE6403901D54587F00652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6403991D5458B800652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE64039A1D5458B800652BAC /* objcScrollView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcScrollView.podspec; sourceTree = "<group>"; };
+		FE64039B1D5458B800652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE64039F1D5458FC00652BAC /* UIScrollView+VDPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+VDPosition.h"; sourceTree = "<group>"; };
+		FE6403A01D5458FC00652BAC /* UIScrollView+VDPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+VDPosition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,9 @@
 				FE6403811D54587F00652BAC /* objcScrollView */,
 				FE64038D1D54587F00652BAC /* objcScrollViewTests */,
 				FE6403801D54587F00652BAC /* Products */,
+				FE6403991D5458B800652BAC /* Cartfile */,
+				FE64039A1D5458B800652BAC /* objcScrollView.podspec */,
+				FE64039B1D5458B800652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +85,8 @@
 			children = (
 				FE6403821D54587F00652BAC /* objcScrollView.h */,
 				FE6403841D54587F00652BAC /* Info.plist */,
+				FE64039F1D5458FC00652BAC /* UIScrollView+VDPosition.h */,
+				FE6403A01D5458FC00652BAC /* UIScrollView+VDPosition.m */,
 			);
 			path = objcScrollView;
 			sourceTree = "<group>";
@@ -94,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE6403831D54587F00652BAC /* objcScrollView.h in Headers */,
+				FE6403A11D5458FC00652BAC /* UIScrollView+VDPosition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +193,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64039C1D5458B800652BAC /* Cartfile in Resources */,
+				FE64039D1D5458B800652BAC /* objcScrollView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6403A21D5458FC00652BAC /* UIScrollView+VDPosition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
